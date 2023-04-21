@@ -17,7 +17,14 @@ function InfoPanel() {
         <div className={styles.personalDetails}>
           <div className={styles.imageDetails}>
             <div className={styles.image}>
-              <div className={styles.displayImage} />
+              <Image
+                src="/displayImage.svg"
+                alt=""
+                className={styles.displayImage}
+                width={72}
+                height={72}
+                priority
+              />
               <div className={styles.loader}>
                 <div className={styles.fullLoader}></div>
                 <div className={styles.halfLoader}></div>
@@ -61,13 +68,13 @@ function InfoPanel() {
           </div>
           <div className={styles.communityImages}>
             <Image
-              src="/community1.svg"
+              src="/brr.png"
               alt="Community image 1"
               className={styles.communityImage}
               width={48}
               height={48}
               priority
-              style={{ marginLeft: "-3px" }}
+              style={{ marginLeft : '-3px'}}
             />
 
             <Image
