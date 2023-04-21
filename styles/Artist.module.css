@@ -103,7 +103,7 @@
 
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
 
   color: #fafafa;
@@ -127,7 +127,7 @@
 
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
 
   color: #a2a2a2;
@@ -175,10 +175,9 @@
 .floorDetails .text {
   width: 31px;
   height: 20px;
-  font-family: "Sharp Grotesk";
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
   color: #a2a2a2;
 }
@@ -196,7 +195,6 @@
 .floorDetails .amount {
   width: 31px;
   height: 20px;
-  font-family: "Sharp Grotesk";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -213,7 +211,7 @@
   height: 20px;
 
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 12px;
   line-height: 20px;
 

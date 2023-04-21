@@ -15,7 +15,7 @@ const artistDetails = [
     imgName: "artist1",
     artistName: "Azuki #9839",
     amount: "02.82",
-    time: "2 Months",
+    time: "3 Months",
     floor: "12.74",
     change: "+21.6%",
   },
@@ -23,7 +23,7 @@ const artistDetails = [
     imgName: "artist2",
     artistName: "MAYC #9839",
     amount: "02.82",
-    time: "2 Months",
+    time: "3 Months",
     floor: "12.74",
     change: "+21.6%",
   },
@@ -31,7 +31,7 @@ const artistDetails = [
     imgName: "artist3",
     artistName: "MoonBirds #9839",
     amount: "02.82",
-    time: "2 Months",
+    time: "3 Months",
     floor: "12.74",
     change: "+21.6%",
   },
@@ -39,7 +39,7 @@ const artistDetails = [
     imgName: "artist4",
     artistName: "Otherdeed #9839",
     amount: "02.82",
-    time: "2 Months",
+    time: "3 Months",
     floor: "12.74",
     change: "+21.6%",
   },
@@ -47,7 +47,7 @@ const artistDetails = [
     imgName: "artist5",
     artistName: "Cryptoz #9839",
     amount: "02.82",
-    time: "2 Months",
+    time: "3 Months",
     floor: "12.74",
     change: "+21.6%",
   },
@@ -58,13 +58,12 @@ function ArtistPanel() {
       {artistDetails.map((item) => (
         <div className={styles.artistEach} key={item.artistName}>
           <Image
-            src="/brr.png"
+            src={`/${item.imgName}.svg`}
             alt="Logo"
             className={styles.image}
             width={193}
             height={193}
             priority
-            style={{ backgroundImage: `url(../public/${item.imgName}.svg)` }}
           />
 
           <div className={`${space.className} ${styles.timeBlock}`}>

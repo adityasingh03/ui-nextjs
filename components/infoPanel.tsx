@@ -19,7 +19,7 @@ function InfoPanel() {
             <div className={styles.image}>
               <Image
                 src="/displayImage.svg"
-                alt=""
+                alt="Profile Picture"
                 className={styles.displayImage}
                 width={72}
                 height={72}
@@ -68,13 +68,13 @@ function InfoPanel() {
           </div>
           <div className={styles.communityImages}>
             <Image
-              src="/brr.png"
+              src="/community1.svg"
               alt="Community image 1"
               className={styles.communityImage}
               width={48}
               height={48}
               priority
-              style={{ marginLeft : '-3px'}}
+              style={{ marginLeft: "-3px" }}
             />
 
             <Image

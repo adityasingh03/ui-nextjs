@@ -92,10 +92,9 @@
 
 .subText {
   height: 20px;
-
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 300;
+  font-size: 13px;
   line-height: 20px;
   color: #4bdfff;
 }
@@ -122,9 +121,8 @@
 .name {
   height: 20px;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
-  letter-spacing: 0.05em;
   color: #a2a2a2;
 }
 
@@ -143,7 +141,7 @@
   height: 20px;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
   color: #fafafa;
 }
@@ -168,7 +166,7 @@
   height: 20px;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
   color: #a2a2a2;
 }
@@ -186,7 +184,7 @@
   height: 20px;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
   color: #19ed7b;
 }
