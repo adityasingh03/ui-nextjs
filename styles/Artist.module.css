@@ -1,0 +1,221 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: relative;
+  width: 1069px;
+  height: 305px;
+  margin-top: 61px;
+}
+
+.artistEach {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 4px 8px;
+  gap: 16px;
+  isolation: isolate;
+
+  width: 201px;
+  height: 305px;
+
+  background: #111111;
+  border-radius: 8px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: relative;
+}
+
+.image {
+  width: 193px;
+  height: 193px;
+
+  border-radius: 4px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.timeBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 6px;
+  gap: 4px;
+  z-index: 1000;
+  position: absolute;
+  width: 69px;
+  height: 22px;
+  right: 8px;
+  top: 171px;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+
+  border-radius: 31px;
+}
+
+.time {
+  width: 57px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.detailsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 16px;
+
+  width: 193px;
+  height: 84px;
+}
+
+.namesHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 185px;
+  height: 76px;
+}
+
+.name {
+  width: 185px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #fafafa;
+}
+
+.boughtDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 181px;
+  height: 20px;
+}
+
+.boughtDetails .text {
+  width: 44px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #a2a2a2;
+}
+
+.boughtDetails .floorHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  width: 51px;
+  height: 20px;
+}
+
+.boughtDetails .amount {
+  width: 35px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #fafafa;
+}
+.boughtDetails .cryptoIcon {
+  width: 12px;
+  height: 12px;
+}
+
+.floorDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 181px;
+  height: 20px;
+}
+
+.floorDetails .text {
+  width: 31px;
+  height: 20px;
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+
+.floorDetails .floorHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 92px;
+  height: 20px;
+}
+
+.floorDetails .amount {
+  width: 31px;
+  height: 20px;
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fafafa;
+}
+.floorDetails .cryptoIcon {
+  width: 12px;
+  height: 12px;
+}
+
+.floorDetails .change {
+  width: 41px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #19ed7b;
+}

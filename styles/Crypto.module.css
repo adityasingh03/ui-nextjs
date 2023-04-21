@@ -1,0 +1,192 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  position: relative;
+  width: 1070px;
+  height: 200px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+
+/* CryptoDetails */
+
+.cryptoDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  height: 148px;
+}
+
+.cryptoEach {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 24px;
+  overflow: hidden;
+  height: 148px;
+  position: relative;
+  background: #111111;
+  border-radius: 16px;
+}
+
+.ellipses {
+  position: absolute;
+  width: 174px;
+  height: 174px;
+  left: -58px;
+  top: -69px;
+  background: rgba(37, 181, 213, 0.1);
+  filter: blur(25px);
+}
+
+.detailBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  height: 56px;
+}
+
+.image {
+  background: #2c2c2c;
+  border-radius: 8px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  height: 56px;
+}
+
+.cryptoName {
+  height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fafafa;
+}
+
+.sub {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 8px;
+  gap: 8px;
+  height: 28px;
+  border-radius: 19px;
+}
+
+.subText {
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #4bdfff;
+}
+
+.otherInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+.nameHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 181px;
+  height: 20px;
+}
+
+.name {
+  height: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #a2a2a2;
+}
+
+.floorHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 41px;
+  height: 20px;
+}
+
+.amount {
+  width: 25px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fafafa;
+}
+
+.cryptoIcon {
+  width: 12px;
+  height: 12px;
+}
+
+.timeXP {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 181px;
+  height: 20px;
+}
+
+.time {
+  height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+
+.xp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  height: 20px;
+}
+
+.xpInfo {
+  height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #19ed7b;
+}

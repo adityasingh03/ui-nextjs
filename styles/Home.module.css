@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  min-height: calc(100vh - 32px -1px);
+  min-width: calc(100% - 20px);
+  margin: 16px 16px 16px 16px;
+}
+
+.col {
+  margin-left: 55px;
+  margin-right: 10px;
+}
