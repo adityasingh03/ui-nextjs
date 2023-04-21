@@ -149,7 +149,12 @@ function InfoPanel() {
           </div>
         </div>
 
-        <button className={styles.subscribe}>
+        <button
+          className={styles.subscribe}
+          onClick={() =>
+            window.open("https://know-me-aditya.netlify.app/", "_blank")
+          }
+        >
           <p className={`${styles.subscribeText} ${space.className}`}>
             Subscribe
           </p>

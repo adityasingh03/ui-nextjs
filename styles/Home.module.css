@@ -4,7 +4,8 @@
   align-items: flex-start;
   min-height: calc(100vh - 32px -1px);
   min-width: calc(100% - 20px);
-  margin: 16px 16px 16px 16px;
+  margin: 24px 16px 0px 16px;
+  user-select: text;
 }
 
 .col {
