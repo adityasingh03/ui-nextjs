@@ -1,9 +1,13 @@
+// Styling sheets
 import styles from "@/styles/Info.module.css";
+// Next components
 import Image from "next/image";
+import Head from "next/head";
+
+// Icons
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FiGlobe } from "react-icons/fi";
 import { BsChevronDoubleRight } from "react-icons/bs";
-import Head from "next/head";
 import { Space_Grotesk } from "next/font/google";
 const space = Space_Grotesk({
   weight: ["400", "500", "600", "700"],
@@ -159,4 +163,5 @@ function InfoPanel() {
   );
 }
 
+// Exporing the function to be rendered
 export default InfoPanel;

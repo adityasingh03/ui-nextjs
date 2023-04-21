@@ -1,8 +1,10 @@
+// Styling sheets
 import styles from "@/styles/Artist.module.css";
+// Next components
 import Image from "next/image";
-
+// Icons
 import { FaEthereum } from "react-icons/fa";
-
+// Font
 import { Space_Grotesk } from "next/font/google";
 const space = Space_Grotesk({
   weight: ["400", "500", "600", "700"],
@@ -10,6 +12,7 @@ const space = Space_Grotesk({
   subsets: ["latin"],
 });
 
+// Dummy data to render in Artists/People component
 const artistDetails = [
   {
     imgName: "artist1",
@@ -52,6 +55,8 @@ const artistDetails = [
     change: "+21.6%",
   },
 ];
+
+// Artist Panel function to display the artists
 function ArtistPanel() {
   return (
     <div className={styles.container}>
@@ -115,4 +120,5 @@ function ArtistPanel() {
   );
 }
 
+// Exporing the function to be rendered
 export default ArtistPanel;

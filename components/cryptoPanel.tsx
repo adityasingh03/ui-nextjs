@@ -1,8 +1,10 @@
+// Styling sheets
 import styles from "@/styles/Crypto.module.css";
+// Next components
 import Image from "next/image";
-
+// Icons
 import { FaEthereum } from "react-icons/fa";
-
+// Font
 import { Space_Grotesk } from "next/font/google";
 const space = Space_Grotesk({
   weight: ["400", "500", "600", "700"],
@@ -10,6 +12,7 @@ const space = Space_Grotesk({
   subsets: ["latin"],
 });
 
+// Dummy data to render in Crypto component
 const cryptoDetails = [
   {
     imgName: "crypto1",

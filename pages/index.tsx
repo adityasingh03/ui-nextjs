@@ -1,8 +1,10 @@
+// Components
 import InfoPanel from "../components/infoPanel";
 import CryptoPanel from "../components/cryptoPanel";
 import ArtistPanel from "../components/artistPanel";
-
+// Style sheets
 import styles from "@/styles/Home.module.css";
+// Fonts
 import { Space_Grotesk } from "next/font/google";
 const space = Space_Grotesk({
   weight: ["400", "500", "600", "700"],
