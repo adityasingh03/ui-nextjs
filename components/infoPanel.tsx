@@ -17,14 +17,7 @@ function InfoPanel() {
         <div className={styles.personalDetails}>
           <div className={styles.imageDetails}>
             <div className={styles.image}>
-              <Image
-                src="/displayImage.svg"
-                alt="Logo"
-                className={styles.displayImage}
-                width={72}
-                height={72}
-                priority
-              />
+              <div className={styles.displayImage} />
               <div className={styles.loader}>
                 <div className={styles.fullLoader}></div>
                 <div className={styles.halfLoader}></div>
@@ -74,7 +67,7 @@ function InfoPanel() {
               width={48}
               height={48}
               priority
-              style={{ marginLeft : '-3px'}}
+              style={{ marginLeft: "-3px" }}
             />
 
             <Image

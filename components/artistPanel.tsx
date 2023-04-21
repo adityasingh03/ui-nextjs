@@ -64,6 +64,7 @@ function ArtistPanel() {
             width={193}
             height={193}
             priority
+            style={{ backgroundImage: `url(../public/${item.imgName}.svg)` }}
           />
 
           <div className={`${space.className} ${styles.timeBlock}`}>
