@@ -58,7 +58,7 @@ function ArtistPanel() {
       {artistDetails.map((item) => (
         <div className={styles.artistEach} key={item.artistName}>
           <Image
-            src={`/${item.imgName}.svg`}
+            src="/brr.png"
             alt="Logo"
             className={styles.image}
             width={193}
